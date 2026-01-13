@@ -1,10 +1,7 @@
 {
   "name": "dacoday",
   "version": "0.1.0",
-<<<<<<< HEAD
   "homepage": "https://canofmato.github.io/responsive-seminar-pamphlet",
-=======
->>>>>>> 1cd2a14abaf4060a33f3a09ff39616b6d96df071
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
@@ -25,11 +22,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-=======
->>>>>>> 1cd2a14abaf4060a33f3a09ff39616b6d96df071
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -53,10 +47,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.23",
-<<<<<<< HEAD
     "gh-pages": "^6.3.0",
-=======
->>>>>>> 1cd2a14abaf4060a33f3a09ff39616b6d96df071
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.19"
   }

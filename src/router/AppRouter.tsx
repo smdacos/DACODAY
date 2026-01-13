@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Header from '../components/layout/Header';
 import Home from '../pages/Home/Home';
 import Overview from '../pages/Overview/Overview';
@@ -13,7 +13,7 @@ import CMT from '../pages/Overview/CMT';
 
 function AppRouter() {
   return (
-    <BrowserRouter>
+    <HashRouter>
     <div className="bg-black flex flex-col">
       <Header />
       <Routes>
@@ -30,7 +30,7 @@ function AppRouter() {
       </Routes>
     </div>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
