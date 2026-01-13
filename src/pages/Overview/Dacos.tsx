@@ -4,7 +4,7 @@ import github from "../../assets/github.svg";
 
 function Dacos() {
   return (
-    <div className="flex flex-col items-center justify-between h-[calc(100vh-70px)] lg:h-[calc(100vh-100px)] pt-[150px] lg:pt-[100px] pb-[50px]">
+    <div className="flex-1 flex flex-col items-center justify-between pt-[150px] lg:pt-[100px] pb-[50px]">
 
       <div className="flex flex-col items-center justify-center gap-[32px] px-[2px] py-[22px]">
         <h1 className="font-bakbak text-[40px] lg:text-[80px] leading-[35px] lg:leading-[70px] text-[#74CFFB] text-center">About.<br/>DACOS</h1>

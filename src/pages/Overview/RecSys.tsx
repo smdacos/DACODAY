@@ -35,7 +35,8 @@ const projectImages = [
         {/* 데스크탑 버전 */}
         <p className="hidden lg:block font-inter text-[14px] lg:text-[24px] leading-[24px] lg:leading-[32px] text-center text-white">
           학생의 관심 분야와 활동 이력을 기반으로 적합한 프로젝트를 추천하는 매칭 시스템을 제안합니다.<br/>
-          직접 구축한 사용자·프로젝트 데이터셋을 활용해 콘텐츠 기반(CBF)과 협업 이력 기반(CF)을 결합한 하이브리드 추천 방식을 적용했습니다.<br/><br/>
+          직접 구축한 사용자·프로젝트 데이터셋을 활용해<br/>
+          콘텐츠 기반(CBF)과 협업 이력 기반(CF)을 결합한 하이브리드 추천 방식을 적용했습니다.<br/><br/>
 
           이를 통해 학생들이 자신에게 맞는 프로젝트를 효율적으로 탐색하도록 돕는 것을 목표로 합니다.
         </p>

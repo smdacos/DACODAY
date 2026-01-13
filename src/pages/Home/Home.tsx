@@ -9,11 +9,11 @@ function Home() {
     <main className="w-full h-screen bg-black flex justify-center items-center overflow-hidden">
       <div className="lg:hidden relative w-[340px] h-[750px] bg-black">
 
-        <div className="absolute left-[55px] top-[60px] rotate-[55deg]">
+        <div className="absolute left-[60px] top-[55px] rotate-[55deg]">
           <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
         </div>
 
-        <div className="absolute left-[15px] top-[406px] rotate-[15deg] z-10 flex items-center justify-center">
+        <div className="absolute left-[20px] top-[400px] rotate-[15deg] z-10 flex items-center justify-center">
           <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
 
-        <Link to="/overview" className="absolute top-[214px] -rotate-[13deg] z-10 flex items-center justify-center">
+        <Link to="/overview" className="absolute left-[20px] top-[210px] -rotate-[13deg] z-10 flex items-center justify-center">
           <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
 
           <div className="absolute flex flex-col justify-center gap-[4px] text-black rotate-[13deg] translate-y-[35px]">

@@ -1,6 +1,6 @@
 function CMT() {
   return (
-    <div className="flex justify-center items-start mt-[200px] lg:mt-[100px] h-[calc(100vh-70px)] lg:h-[calc(100vh-100px)]">
+    <div className="flex-1 flex justify-center items-start mt-[200px] lg:mt-[100px]">
       <div className="flex flex-col items-center justify-center gap-[22px] lg:gap-[50px]">
         <div className="flex flex-col gap-[24px] items-center justify-center">
           <h1 className="font-bakbak text-[40px] lg:text-[80px] leading-[28px] lg:leading-[60px] text-[#74CFFB]">Feedback</h1>

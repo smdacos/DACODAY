@@ -1,6 +1,6 @@
 function Time() {
   return (
-    <div className="flex justify-center items-center h-[calc(100vh-70px)] lg:h-[calc(100vh-100px)]">
+    <div className="flex-1 flex justify-center items-center">
       <div className="flex flex-col w-[320px] h-[420px] lg:w-[800px] lg:h-[600px] px-[30px] py-[25px] lg:py-[40px] lg:gap-[30px] rounded-[20px] bg-[#74CFFB] border border-[#6BCBF3] items-center justify-center">
         <h1 className="font-bakbak text-[36px] lg:text-[70px] ">TIME TABLE</h1>
         <div className="flex gap-[22px] lg:gap-[60px]">

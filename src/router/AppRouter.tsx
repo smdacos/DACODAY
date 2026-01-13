@@ -14,20 +14,23 @@ import CMT from '../pages/Overview/CMT';
 function AppRouter() {
   return (
     <BrowserRouter>
-    <div className="bg-black flex flex-col">
+    <div className="bg-black flex flex-col min-h-dvh">
       <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/overview" element={<Overview />} />
-        <Route path="/overview/time" element={<Time />} />
-        <Route path="/overview/dacos" element={<Dacos />} />
-        <Route path="/overview/genai1" element={<GenAI1 />} />
-        <Route path="/overview/genai2" element={<GenAI2 />} />
-        <Route path="/overview/nlp" element={<NLP />} />
-        <Route path="/overview/cv" element={<CV />} />
-        <Route path="/overview/recsys" element={<RecSys />} />
-        <Route path="/overview/cmt" element={<CMT />} />
-      </Routes>
+      <main className="flex-1 flex flex-col">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/overview" element={<Overview />} />
+          <Route path="/overview/time" element={<Time />} />
+          <Route path="/overview/dacos" element={<Dacos />} />
+          <Route path="/overview/genai1" element={<GenAI1 />} />
+          <Route path="/overview/genai2" element={<GenAI2 />} />
+          <Route path="/overview/nlp" element={<NLP />} />
+          <Route path="/overview/cv" element={<CV />} />
+          <Route path="/overview/recsys" element={<RecSys />} />
+          <Route path="/overview/cmt" element={<CMT />} />
+        </Routes>
+      </main>
+      
     </div>
 
     </BrowserRouter>
