@@ -17,7 +17,7 @@ function Home() {
           <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
-            <p className="font-inter font-medium text-[24px] leading-[1.2]">2026.01.19 <br/>명신관 703</p>
+            <p className="font-inter font-medium text-[20px] leading-[1.2]">2026.01.19 <br/>명신관 703</p>
           </div>
         </div>
 
