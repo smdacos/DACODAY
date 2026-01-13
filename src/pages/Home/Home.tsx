@@ -9,12 +9,12 @@ function Home() {
     <main className="w-full h-screen bg-black flex justify-center items-center overflow-hidden">
       <div className="lg:hidden relative w-[340px] h-[750px] bg-black">
 
-        <div className="absolute left-[50px] top-[60px] rotate-[55deg]">
-          <img src={folderImg} alt="folder" className="w-[300px] min-w-[300px] h-auto" />
+        <div className="absolute left-[55px] top-[60px] rotate-[55deg]">
+          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
         </div>
 
-        <div className="absolute left-[10px] top-[406px] rotate-[15deg] z-10 flex items-center justify-center">
-          <img src={folderImg} alt="folder" className="w-[300px] min-w-[300px] h-auto" />
+        <div className="absolute left-[15px] top-[406px] rotate-[15deg] z-10 flex items-center justify-center">
+          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
             <p className="font-inter font-medium text-[24px] leading-[1.2]">2026.01.19 <br/>명신관 703</p>
@@ -22,12 +22,12 @@ function Home() {
         </div>
 
         <Link to="/overview" className="absolute top-[214px] -rotate-[13deg] z-10 flex items-center justify-center">
-          <img src={folderImg} alt="folder" className="w-[300px] min-w-[300px] h-auto" />
+          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
 
           <div className="absolute flex flex-col justify-center gap-[4px] text-black rotate-[13deg] translate-y-[35px]">
 
             <div className="flex flex-col items-center text-black ">
-              <h1 className="font-bakbak text-[50px] leading-[0.8] text-stroke-1">DACODAY</h1>
+              <h1 className="font-bakbak text-[48px] leading-[0.8] text-stroke-1">DACODAY</h1>
               <div className="w-full h-[4px] bg-black mt-1" />
             </div>
 
@@ -51,11 +51,11 @@ function Home() {
         </div>
 
         <Link to="/overview" className="z-20 flex flex-col items-center justify-center">
-          <img src={folderImg} alt="folder" className="w-[500px] h-auto" />
+          <img src={folderImg} alt="folder" className="w-[450px] h-auto" />
           <div className="absolute flex flex-col justify-center gap-[4px] text-black translate-y-[55px]">
 
             <div className="flex flex-col items-center text-black ">
-              <h1 className="font-bakbak text-[80px] leading-[0.8] text-stroke-1">DACODAY</h1>
+              <h1 className="font-bakbak text-[70px] leading-[0.8] text-stroke-1">DACODAY</h1>
               <div className="w-full h-[4px] bg-black mt-1" />
             </div>
 

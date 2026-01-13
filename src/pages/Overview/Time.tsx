@@ -1,8 +1,8 @@
 function Time() {
   return (
     <div className="flex justify-center items-center h-[calc(100vh-70px)] lg:h-[calc(100vh-100px)]">
-      <div className="flex flex-col w-[320px] h-[420px] lg:w-[900px] lg:h-[650px] px-[30px] py-[25px] lg:py-[40px] lg:gap-[30px] rounded-[20px] bg-[#74CFFB] border border-[#6BCBF3] items-center justify-center">
-        <h1 className="font-bakbak text-[36px] lg:text-[80px] ">TIME TABLE</h1>
+      <div className="flex flex-col w-[320px] h-[420px] lg:w-[800px] lg:h-[600px] px-[30px] py-[25px] lg:py-[40px] lg:gap-[30px] rounded-[20px] bg-[#74CFFB] border border-[#6BCBF3] items-center justify-center">
+        <h1 className="font-bakbak text-[36px] lg:text-[70px] ">TIME TABLE</h1>
         <div className="flex gap-[22px] lg:gap-[60px]">
           <div className="lg:hidden flex flex-col font-bakbak text-[20px] leading-[35px]">
             <p>18:00</p>
@@ -25,7 +25,7 @@ function Time() {
             <p>20:45 ~ 21:00</p>
           </div>
     
-          <div className="flex flex-col font-inter font-medium text-[15px] lg:text-[30px] leading-[35px] lg:leading-[50px] items-center">
+          <div className="flex flex-col font-inter font-medium text-[15px] lg:text-[24px] leading-[35px] lg:leading-[50px] items-center">
             <p>3팀 발표</p>
             <p>쉬는 시간</p>
             <p>2팀 발표</p>
