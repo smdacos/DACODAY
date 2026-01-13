@@ -76,7 +76,7 @@ function CV() {
 
       <div className="flex flex-col items-center gap-[24px] h-[120px]">
         <h1 className="font-bakbak text-[40px] lg:text-[60px] text-[#74CFFB]">Q&A</h1>
-        <p className="font-inter text-[16px] lg:text-[24px] leading-[28px] text-center text-white">궁금한 점을 남겨주세요</p>
+        <a href="https://padlet.com/kmj25b/1-5cg8tjomtvtxl0xd" className="font-inter text-[16px] lg:text-[24px] leading-[28px] text-center text-white hover:scale-105">궁금한 점을 남겨주세요</a>
 
       </div>
     </div>
