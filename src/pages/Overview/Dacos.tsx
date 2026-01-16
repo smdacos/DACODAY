@@ -7,8 +7,8 @@ function Dacos() {
     <div className="flex-1 flex flex-col items-center justify-between pt-[150px] lg:pt-[100px] pb-[50px]">
 
       <div className="flex flex-col items-center justify-center gap-[32px] px-[2px] py-[22px]">
-        <h1 className="font-bakbak text-[40px] lg:text-[80px] leading-[35px] lg:leading-[70px] text-[#74CFFB] text-center">About.<br/>DACOS</h1>
-        <p className="font-inter text-[15px] lg:text-[22px] leading-[28px] lg:leading-[28px] text-center text-white">DACOS는 이기용 교수님 지도 하에 창설된<br/>
+        <h1 className="font-bakbak text-[40px] lg:text-[60px] leading-[35px] lg:leading-[50px] text-[#74CFFB] text-center">About.<br/>DACOS</h1>
+        <p className="font-inter text-[15px] lg:text-[22px] leading-[28px] text-center text-white">DACOS는 이기용 교수님 지도 하에 창설된<br/>
         소프트웨어학부 최초 데이터 분석 동아리입니다.<br/>
         데이터 처리, 머신러닝, 딥러닝 등을 학습하며<br/>
         데이터 분석 관련 커뮤니케이션의 장이 될 것입니다.</p>

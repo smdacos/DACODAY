@@ -66,9 +66,13 @@ function Home() {
           </div>
         </Link>
       </div>
-     
-    </main>
 
+      <footer className="absolute bottom-0 w-full p-5 flex justify-center items-center text-white/50 text-[12px] lg:text-[16px]">
+        <div>
+          <p>© 2026 DACODAY.  ALL rights reserved.</p>
+        </div>
+      </footer>
+    </main>
   );
 }
 
