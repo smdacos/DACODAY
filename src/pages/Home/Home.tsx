@@ -7,13 +7,13 @@ function Home() {
 
   return (
     <main className="relative w-full h-[100dvh] bg-black flex flex-col justify-center items-center overflow-hidden">
-      <div className="lg:hidden relative w-full h-full bg-black">
+      <div className="lg:hidden relative w-[340px] h-full bg-black">
 
-        <div className="absolute left-[60px] top-[50px] rotate-[55deg]">
+        <div className="absolute left-[60px] top-[60px] rotate-[55deg]">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
         </div>
 
-        <div className="absolute left-[20px] top-[390px] rotate-[15deg] z-10 flex items-center justify-center">
+        <div className="absolute left-[20px] top-[370px] rotate-[15deg] z-10 flex items-center justify-center">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
