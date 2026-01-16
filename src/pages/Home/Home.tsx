@@ -9,11 +9,11 @@ function Home() {
     <main className="relative w-full h-[100dvh] bg-black flex flex-col justify-center items-center overflow-hidden">
       <div className="lg:hidden relative w-[340px] h-full bg-black">
 
-        <div className="absolute left-[60px] top-[60px] rotate-[55deg]">
+        <div className="absolute left-[60px] top-[60px] rotate-[48deg]">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
         </div>
 
-        <div className="absolute left-[20px] top-[370px] rotate-[15deg] z-10 flex items-center justify-center">
+        <div className="absolute left-[20px] top-[360px] rotate-[15deg] z-10 flex items-center justify-center">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
@@ -21,7 +21,7 @@ function Home() {
           </div>
         </div>
 
-        <Link to="/overview" className="absolute left-[20px] top-[200px] -rotate-[13deg] z-10 flex items-center justify-center">
+        <Link to="/overview" className="absolute left-[20px] top-[190px] -rotate-[13deg] z-10 flex items-center justify-center">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
 
           <div className="absolute flex flex-col justify-center gap-[4px] text-black rotate-[13deg] translate-y-[35px]">
