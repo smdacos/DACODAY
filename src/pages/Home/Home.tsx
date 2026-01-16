@@ -9,25 +9,25 @@ function Home() {
     <main className="w-full h-screen bg-black flex justify-center items-center overflow-hidden">
       <div className="lg:hidden relative w-[340px] h-[750px] bg-black">
 
-        <div className="absolute left-[60px] top-[55px] rotate-[55deg]">
-          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
+        <div className="absolute left-[60px] top-[50px] rotate-[55deg]">
+          <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
         </div>
 
-        <div className="absolute left-[20px] top-[400px] rotate-[15deg] z-10 flex items-center justify-center">
-          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
+        <div className="absolute left-[20px] top-[390px] rotate-[15deg] z-10 flex items-center justify-center">
+          <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
 
           <div className="absolute right-[30px] bottom-[80px] text-black translate-y-[10px]">
             <p className="font-inter font-medium text-[20px] leading-[1.2]">2026.01.19 <br/>명신관 703</p>
           </div>
         </div>
 
-        <Link to="/overview" className="absolute left-[20px] top-[210px] -rotate-[13deg] z-10 flex items-center justify-center">
-          <img src={folderImg} alt="folder" className="w-[280px] min-w-[280px] h-auto" />
+        <Link to="/overview" className="absolute left-[20px] top-[200px] -rotate-[13deg] z-10 flex items-center justify-center">
+          <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
 
           <div className="absolute flex flex-col justify-center gap-[4px] text-black rotate-[13deg] translate-y-[35px]">
 
             <div className="flex flex-col items-center text-black ">
-              <h1 className="font-bakbak text-[48px] leading-[0.8] text-stroke-1">DACODAY</h1>
+              <h1 className="font-bakbak text-[44px] leading-[0.8] text-stroke-1">DACODAY</h1>
               <div className="w-full h-[4px] bg-black mt-1" />
             </div>
 
