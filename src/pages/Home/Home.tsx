@@ -6,8 +6,8 @@ function Home() {
   const subFolders = Array(5).fill(null);
 
   return (
-    <main className="relative w-full min-h-[100dvh] bg-black flex flex-col justify-center items-center overflow-hidden">
-      <div className="lg:hidden relative w-[340px] h-[750px] bg-black">
+    <main className="relative w-full h-[100dvh] bg-black flex flex-col justify-center items-center overflow-hidden">
+      <div className="lg:hidden relative w-full h-full bg-black">
 
         <div className="absolute left-[60px] top-[50px] rotate-[55deg]">
           <img src={folderImg} alt="folder" className="w-[270px] min-w-[270px] h-auto" />
@@ -67,7 +67,7 @@ function Home() {
         </Link>
       </div>
 
-      <footer className="w-full p-5 flex justify-center items-center text-white/50 text-[12px] lg:text-[16px] mb-[env(safe-area-inset-bottom)]">
+      <footer className="absolute bottom-4 w-full flex justify-center items-center text-white/50 text-[12px] lg:text-[16px] mb-[env(safe-area-inset-bottom)]">
         <div>
           <p>© 2026 DACODAY.  ALL rights reserved.</p>
         </div>
